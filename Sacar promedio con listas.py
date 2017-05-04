@@ -8,12 +8,14 @@ def promedio(listaNotas):
   resultado = 0
   acumulador = 0
 
-  for x in listaNotas:
-    acumulador = acumulador + x
+  v = 10
 
-    resultado = acumulador/len(listaNotas)
-
-  return resultado
+##  for x in listaNotas:
+##    acumulador = acumulador + x
+##
+##    resultado = acumulador/len(listaNotas)
+##
+##  return resultado
 
 #para sacar el promedio con un porcentaje en cada nota
 def prom(notalista,porcentaje):
